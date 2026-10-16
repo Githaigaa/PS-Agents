@@ -4,27 +4,32 @@
 - 189225 – Githaiga Emmanuel Mundia
 
 ## QUESTION 1
-### PEAS FRAMEWORK DESIGN
-- **Performance Measure:** Fuel Efficiency, time taken to reach the destination (Kisumu), cost of the path  (total kilometers travelled), safety (avoiding collision).<br/>
-- **Environment:** Road signs and traffic lights, weather conditions, pedestrians, traffic & other vehicles,  towns along the road, highway networks for example A8, B1, B3, B5.<br/>
-- **Actuators:** Steering wheel, accelerator, brake, indicators, gear shift.<br/>
-- **Sensors:** GPS, speedometer, radar, cameras<br/>
+PEAS Framework Design
+Performance Measure: Fuel Efficiency, time taken to reach the destination (Kisumu), cost of the path(total kilometers travelled), safety(avoiding collision) (Stuart Russell, 2022).
+Environment: Road signs & traffic lights, weather conditions, pedestrians, traffic & other vehicles, towns along the road, highway networks for example A8, B1, B3, B5.
+Actuators: Steering wheel, accelerator, brake, indicators, gear shift (Vikiru, 2026).
+Sensors: GPS, speedometer, radar, Cameras
 
-### CLASSIFYING THE ENVIRONMENT
-a. Observability<br/>
-**_Partially observability_** - the agent is not fully aware of its environment since it cannot  see beyond hills and buildings or even around meandering corners along the roads.<br/>
+Classifying the Environment
+a.	Observability
+Partially observability – The agent is not fully aware of its environment since it cannot see beyond hills and buildings or even around meandering corners along the roads.
 
-b. Determinism<br/>
-**_Stochastic_** - The next state cannot be determined only by the actions and current state of the agent.  Other drivers, pedestrians, and weather conditions make the environment unpredictable.<br/>
+b.	Determinism
+Stochastic – The next state cannot be determined only by the actions and current state of the agent (Vikiru, 2026). Other drivers, pedestrians, and weather conditions make the environment unpredictable.
 
-c. Episodic vs. Sequential<br/>
-**_Sequential_** - Current actions depend on the previous actions. For example, deciding to turn  right at Oyugis depends on having driven from Bomet through Narok.<br/>
+c.	Episodic vs Sequential
+Sequential – Current actions depend on the previous actions (Vikiru, 2026). For example, deciding to turn right at Oyugis depends on having driven from Bomet through Narok.
 
-d. Static vs. Dynamic<br/>
-**_Dynamic_** - The environment changes while the agent is deliberating to choose an action. For example, traffic moves,  traffic lights chnage, and speed limit also changes.  This requires the agent to consult the environment frequently and act in real-time.<br/>
+d.	Static vs Dynamic
+Dynamic – The environment changes while the agent is deliberating to choose an action (Stuart Russell, 2022). For example, Traffic moves, traffic lights change, and speed limit also changes. This requires the agent to consult the environment frequently and act in real-time.
 
-e. Single vs. Multi-Agent<br/>
-**_Multi-Agent_** - The trailer operates with other agents such that the agent's decisions affect and are affected  by these other agents for example, human drivers, pedestrians and cyclistst.<br/>
+e.	Single vs multi-Agent
+Multi-Agent – The trailer operates with other agents such that the agent’s decision affect and are affected by these other agents for example, human drivers, pedestrians and cyclists.
+
+References
+Stuart Russell, P. N. (2022). Artificial Intelligence A Modern Approach (4 ed.). Pearson. Retrieved from Artificial Intelligence A Modern Approach.pdf
+Vikiru, A. (2026). Intelligent Agents. 1-34. Retrieved from Intelligent Agents.pdf
+
 
 
 ## QUESTION 2: DIRECTED GRAPH AND SEARCH TREE
